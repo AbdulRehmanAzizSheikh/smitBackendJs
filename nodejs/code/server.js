@@ -17,11 +17,11 @@ function createServer() {
     if (pathname !== "") {
       res.end(`${pathname} wala page`);
     } else {
-      console.log("something went wrong!");
+      console.log("something went wrong❗");
     }
     // res.end("server is running -->");
   });
   server.listen(8000, "127.0.0.1", () => {
-    console.log("server is listening");
+    console.log("server is listening 🎉");
   });
 }
